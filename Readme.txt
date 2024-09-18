@@ -40,10 +40,10 @@ This file is the codes for estimating the temporal trends for each phenophase of
           3. plant_grid_level_LMM_trend.mat,
           4. plantshift_MK_trend. mat.
    (ii) Second, run Trend_interphase.m. 
-This file provides the codes for estimating the trend of length of intervals between two paired phenophases. It will save the following 1 mat files in the “result” folder:
+This file provides the codes for estimating the trend of length of intervals between two paired phenophases. It will save the following 1 mat file in the “result” folder:
           5. plant_interphase_trend.mat.
    (iii) Third, run climatic_carryover_effect.m. 
-This file provides the codes for estimating the carryover effect and climatic effect on phenological variations. It will save the following 1 mat files in the “result” folder:
+This file provides the codes for estimating the carryover effect and climatic effect on phenological variations. It will save the following 1 mat file in the “result” folder:
           6. clim_carryover_effect_dailytp_interphase.mat.
 
 ***NOTE*** The code files serve as an example for plants. Before running the programmes, you need to adjust the calling path of the input data to match its storage path, otherwise an error will occur. The results for animals would be output, when the data for a given animal guild is input. We already provided the preprocessed phenology data and climatic data files for both plant and animal in the ‘data’ folder. You can get preliminary reports with further analysis from running the codes as mentioned in step (i-iii). The mat files are for the animals in the “data” folder:
